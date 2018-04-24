@@ -13,7 +13,7 @@ for line in infile:
     e = Entry(m[0], m[1], m[3])
     entries.append(e)
 
-# Build a parent -> child lookup table
+# Build a child -> parent lookup table
 parent = {}
 for entry in entries:
     children = entry.children.split(', ')
