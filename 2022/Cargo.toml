@@ -12,3 +12,4 @@ bench = false
 [dependencies]
 aoc-runner = "*"
 aoc-runner-derive = "*"
+itertools = "0.10.5"
